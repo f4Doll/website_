@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Fairy Avina Business to surpass all Creators throughout existence</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="pragma" content="no-cache">
+  <meta http-equiv="cache-control" content="no-cache">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="C:\Users\FairyPawn\Documents\SUM24-Projects\HTML\Site\main_v1.26.2025.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://kit.fontawesome.com/dee75be8e9.js" crossorigin="anonymous"></script>
+</head>
+
+
+
+
+<body class="fab-full-scene">
+
+    <!-- Header -->
+    <div class="fab-film-background">
+      <div class="fab-adjacent-slide"></div>
+      <div class="fab-main-slide">
+        <div class="fab-slide-content fab-charcoal">
+          <i class="fa-solid fa-clapperboard"></i>
+        </div>
+      </div>
+      <div class="fab-adjacent-slide"></div>
+    </div>
+
+
+    <!--Display Bar-->
+    <div class="row fab-padding-top-44">
+      <div class="fab-adjacent-film-strip">
+        <div class="fab-bar-block fab-cream-blend w3-card w3-center w3-round-large" style="height: 100px;">
+        </div>
+      </div>
+      <div class="fab-film-strip">
+        <div class="w3-bar-block w3-jumbo fab-dawn w3-card w3-center w3-round-large" style="height: 100px;">
+          <i class="fa-solid fa-folder"></i>
+        </div>
+      </div>
+      <div class="fab-film-strip">
+        <div class="w3-bar-block w3-jumbo fab-dawn w3-card w3-center w3-round-large" style="height: 100px;">
+          <i class="fa-solid fa-icons"></i>
+        </div>
+      </div>
+      <div class="fab-film-strip">
+        <div class="w3-bar-block w3-jumbo fab-dawn w3-card w3-center w3-round-large" style="height: 100px;">
+          <i class="fa-solid fa-cube"></i>
+        </div>
+      </div>
+      <div class="fab-film-strip">
+        <div class="w3-bar-block w3-jumbo fab-dawn w3-card w3-center w3-round-large" style="height: 100px;">
+          <i class="fa-solid fa-dice"></i>
+        </div>
+      </div>
+      <div class="fab-adjacent-film-strip">
+        <div class="w3-bar-block fab-cream-blend w3-card w3-center w3-round-large" style="height: 100px;">
+        </div>
+      </div>
+    </div>
+  
+
+  <script>
+    function w3_open() {
+      document.getElementById("main").style.marginLeft = "25%";
+      document.getElementById("mySidebar").style.width = "25%";
+      document.getElementById("mySidebar").style.display = "block";
+      document.getElementById("openNav").style.display = 'none';
+    }
+
+    function w3_close() {
+      document.getElementById("main").style.marginLeft = "0%";
+      document.getElementById("mySidebar").style.width = "0%";
+      document.getElementById("mySidebar").style.display = "none";
+      document.getElementById("openNav").style.display = "inline-block";
+    }
+
+    function openModal() {
+      document.getElementById("myModal").style.display = "block";
+    }
+
+    function closeModal() {
+      document.getElementById("myModal").style.display = "none";
+    }
+
+    var slideIndex = 1;
+    showSlides(slideIndex);
+
+    function plusSlides(n) {
+      showSlides(slideIndex += n);
+    }
+
+    function currentSlide(n) {
+      showSlides(slideIndex = n);
+    }
+
+    function showSlides(n) {
+      var i;
+      var slides = document.getElementsByClassName("mySlides");
+      var dots = document.getElementsByClassName("demo");
+      var captionText = document.getElementById("caption");
+      if (n > slides.length) { slideIndex = 1 }
+      if (n < 1) { slideIndex = slides.length }
+      for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";
+      }
+      for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+      }
+      slides[slideIndex - 1].style.display = "block";
+      dots[slideIndex - 1].className += " active";
+      captionText.innerHTML = dots[slideIndex - 1].alt;
+    }
+  </script>
+
+
+
+
+</html>
